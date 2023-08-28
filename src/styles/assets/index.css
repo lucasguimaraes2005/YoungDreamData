@@ -8,6 +8,7 @@
     justify-content: space-between;
     width: 100%;
     height: 100%;
+    background-color: #f1ebf7;
 }
 
 .main__section-login {
@@ -26,18 +27,21 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    margin-right: 12rem;
-    margin-top: 15rem;
+    margin-right: 9rem;
+    margin-top: 14rem;
 }
 
 .main__section-img {
-    background-color: aqua;
+    background-image: url(./image.png);
+    background-size: cover;
+    background-position: 50% center;
     height: 100%;
     padding: 25.5%;
+    padding-right: 30%;
 }
 
 .div__logo {
-    margin-right: 12rem;
+    margin-right: 9rem;
     margin-top: 14rem;
     margin-bottom: -13rem;
 }
@@ -45,28 +49,28 @@
 .div__logo h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
-    color: var(--grey-1);
+    color: var(--grey-4);
 }
 
 .login__input {
     padding: 20px;
     border-radius: 25px;
-    border: 0.5px solid var(--grey-2);
+    border: 0.5px solid var(--grey-4);
 }
 
 .login__input:focus {
-    border-color: var(--grey-2);
+    border-color: var(--grey-4);
 }
 
 .login__button {
     padding: 15px;
     width: 54%;
     border-radius: 25px;
-    border: 1px solid var(--grey-2);
+    border: 1px solid var(--grey-4);
     background-color: transparent;
 }
 
 .login__button:hover {
-    background-color: var(--grey-2);
+    background-color: var(--grey-4);
     color: var(--grey-5);
 }
