@@ -31,6 +31,10 @@
     margin-top: 14rem;
 }
 
+img {
+    width: 40%;
+}
+
 .main__section-img {
     align-items: center;
     justify-content: center;
@@ -38,10 +42,6 @@
     padding: 25.5%;
     padding-right: 30%;
     background-color: var(--grey-4);
-}
-
-img {
-    width: 40%;
 }
 
 .div__logo {
