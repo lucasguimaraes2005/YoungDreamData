@@ -37,6 +37,7 @@
     height: 100%;
     padding: 25.5%;
     padding-right: 30%;
+    background-color: var(--grey-4);
 }
 
 img {
